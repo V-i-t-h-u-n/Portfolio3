@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#B6E882"
+    >
+
+
+    <ImageView
+        android:id="@+id/images"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/android"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vithun V C"
+        android:layout_below="@+id/images"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/desig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textColor="@color/teal_700"
+        />
+
+    <TextView
+        android:id="@+id/education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Education"
+        android:layout_below="@+id/desig"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+        <TextView
+            android:id="@+id/clgname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="K.Ramakrishnan College of Engineering"
+            android:layout_below="@+id/education"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textColor="@color/teal_700"
+            />
+
+    <TextView
+        android:id="@+id/branch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B.E CSE"
+        android:layout_below="@+id/clgname"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textColor="@color/teal_700"
+        />
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2019-2023"
+        android:layout_below="@+id/clgname"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textColor="@color/teal_700"
+        />
+
+    <TextView
+        android:id="@+id/course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course"
+        android:layout_below="@+id/branch"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/course1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Development"
+        android:layout_below="@+id/course"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textColor="@color/teal_700"
+        />
+
+    <TextView
+        android:id="@+id/courseduration1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2021"
+        android:layout_below="@+id/course"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textColor="@color/teal_700"
+        />
+
+    <TextView
+        android:id="@+id/course2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Core Java"
+        android:layout_below="@+id/course1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textColor="@color/teal_700"
+        />
+    <TextView
+        android:id="@+id/courseduration2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2020"
+        android:layout_below="@+id/course1"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textColor="@color/teal_700"
+        />
+    <Button
+        android:id="@+id/gitbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/course2"
+        android:layout_marginTop="30dp"
+        android:text="GITHUB"
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#61B0F6"
+
+        />
+    <Button
+        android:id="@+id/linkedinbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/course2"
+        android:text="LINKEDIN"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#61B0F6"
+        />
+
+</RelativeLayout>
